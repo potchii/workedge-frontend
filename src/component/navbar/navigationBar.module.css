@@ -1,0 +1,4 @@
+.test {
+    @apply h-screen;
+    @apply bg-lime-500;
+}

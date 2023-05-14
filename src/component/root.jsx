@@ -1,9 +1,10 @@
 import Navbar from "./navbar/navigationBar";
+import Banner from "./banner";
 
 function Root() {
   return (
     <div>
-      <Navbar />
+      <Banner />
     </div>
   );
 }

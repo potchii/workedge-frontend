@@ -1,0 +1,7 @@
+.videoContainer {
+    @apply relative z-10;
+}
+
+.video {
+    @apply absolute top-0 brightness-75 w-max bg-cover bg-no-repeat;
+}

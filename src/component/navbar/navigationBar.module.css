@@ -1,5 +1,5 @@
 .nav {
-    @apply flex items-center justify-between h-28;
+    @apply flex items-center justify-between h-28 z-50;
     @apply px-4 sm:px-24 lg:px-[18%]
 }
 
@@ -34,7 +34,7 @@
 
 
 .mobileNav {
-    @apply relative pt-4 flex z-50 items-start px-8 flex-col w-[90%] h-screen bg-white;
+    @apply relative pt-4 flex z-50 items-start px-8 flex-col w-[85%] h-screen bg-white;
 }
 
 @screen md {

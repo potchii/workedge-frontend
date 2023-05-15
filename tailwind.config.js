@@ -7,7 +7,8 @@ export default {
   ],
   theme: {
     color: {
-      primary: "#3f78e0"
+      primary: "#3f78e0",
+      secondary: "#21262c",
     },
     screens: {
       xm: "440px",

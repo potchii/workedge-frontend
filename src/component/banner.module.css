@@ -1,7 +1,16 @@
-.videoContainer {
-    @apply relative z-10;
+.video {
+    @apply absolute top-0 contrast-50 brightness-50 h-[95%] w-full object-cover;
 }
 
-.video {
-    @apply absolute top-0 brightness-75 w-max bg-cover bg-no-repeat;
+.textContainer {
+    @apply h-[55vh] flex flex-col justify-center w-1/2 relative pl-28;
+}
+
+.containerHeading {
+    @apply text-white text-3xl lg:text-7xl font-normal;
+}
+
+.headingButton {
+    @apply flex justify-between bg-transparent hover:bg-white mt-5 text-blue-900 w-64 py-3 px-6 border-2 border-blue-900 hover:border-blue-900;
+    @apply transition-all ease-in;
 }

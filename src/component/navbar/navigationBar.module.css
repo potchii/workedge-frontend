@@ -1,5 +1,5 @@
 .nav {
-    @apply flex items-center justify-between h-28 z-50;
+    @apply flex items-center justify-between h-28 relative z-50;
     @apply px-4 sm:px-24 lg:px-[18%]
 }
 
@@ -46,7 +46,11 @@
 
 
 .navMenu > li {
-    @apply text-gray-700 text-lg font-medium;
+    @apply text-white text-lg font-medium;
+}
+
+.navMenu > li:hover {
+    @apply text-blue-900 ease-in transition-all;
 }
 
 .hamburger {

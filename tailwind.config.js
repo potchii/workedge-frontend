@@ -1,25 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    './src/**/*.{html,js,jsx}',
-    './index.html',
-    // './public/index.html'
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    color: {
+    extend: {
+      colors: {
       primary: "#3f78e0",
       secondary: "#21262c",
+      },
     },
-    screens: {
-      xm: "440px",
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
-    },
-    extend: {},
   },
   plugins: [],
 }
-

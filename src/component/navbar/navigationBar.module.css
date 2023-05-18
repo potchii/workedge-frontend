@@ -50,7 +50,7 @@
 }
 
 .navMenu > li:hover {
-    @apply text-blue-900 ease-in transition-all;
+    @apply text-blue-500 ease-in transition-all;
 }
 
 .hamburger {

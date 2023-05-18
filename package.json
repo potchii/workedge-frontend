@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "hamburger-react": "^2.5.0",
+    "particles.js": "^2.0.0",
     "react-router-dom": "^6.11.0"
   }
 }

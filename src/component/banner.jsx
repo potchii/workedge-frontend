@@ -20,7 +20,7 @@ function banner() {
 
   return (
     <div>
-      <div className={style.videoContainer}>
+      <div className={`${style.videoContainer}`}>
         <Navbar />
 
         <video id="banner-video" autoPlay muted loop className={style.video}>
@@ -30,12 +30,12 @@ function banner() {
         <div className={style.textContainer}>
           <h1 className={`${style.containerHeading} uppercase`}>
             Materializing{" "}
-            <span className="text-blue-900 tracking-widest font-black">
+            <span className="text-primary tracking-widest font-black">
               Ideas.
             </span>
           </h1>
 
-          <h3 className="text-white pl-2.5">
+          <h3 className="text-white pl-1">
             WorkEdge is a rising creative marketing and Events Organization
             company from Davao, Philippines.
           </h3>

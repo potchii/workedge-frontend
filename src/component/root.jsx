@@ -1,10 +1,11 @@
-import Navbar from "./navbar/navigationBar";
 import Banner from "./banner";
+import Services from "./services/services";
 
 function Root() {
   return (
-    <div>
+    <div className="relative">
       <Banner />
+      <Services />
     </div>
   );
 }

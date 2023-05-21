@@ -7,7 +7,7 @@ function Services() {
         <div className={style.container}>
           <div className="flex flex-row space-x-28">
             <div className={` ${style.weDo} flex-col w-7/12`}>
-              <h1 className="tracking-widest font-black text-7xl pb-4">
+              <h1 className="tracking-widest font-black text-8xl pb-4">
                 WE DO.
               </h1>
               <p>
@@ -27,7 +27,7 @@ function Services() {
 
             <div className={`${style.services} flex-col w-5/12`}>
               <div>
-                Events & Organization
+                Events Organization
                 <div className={style.line}></div>
               </div>
 

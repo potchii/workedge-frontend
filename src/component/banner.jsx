@@ -30,12 +30,12 @@ function banner() {
         <div className={style.textContainer}>
           <h1 className={`${style.containerHeading} uppercase`}>
             Materializing{" "}
-            <span className="text-blue-900 tracking-widest font-black">
+            <span className="text-blue-800 tracking-widest font-black">
               Ideas.
             </span>
           </h1>
 
-          <h3 className="text-white pl-2.5">
+          <h3 className="text-white">
             WorkEdge is a rising creative marketing and Events Organization
             company from Davao, Philippines.
           </h3>

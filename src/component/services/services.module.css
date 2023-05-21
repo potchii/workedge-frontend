@@ -4,7 +4,7 @@
 
 .weDo a {
     text-decoration: none;
-    @apply hover:text-blue-900;
+    @apply text-primary hover:text-blue-900 ease-in transition-all;
 }
 
 .weDo p {
@@ -14,8 +14,8 @@
 }
 
 .services div {
-    color: #353535;
-    @apply py-2 text-3xl font-medium ease-in transition-all uppercase;
+    color: #2D2D2D;
+    @apply py-2 text-3xl font-medium hover:text-primary ease-in transition-all uppercase cursor-pointer;
 }
 
 .line {

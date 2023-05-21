@@ -1,0 +1,25 @@
+.container {
+    @apply h-screen overflow-hidden relative;
+}
+
+.imageOverlay {
+    background-image: url('/src/assets/about.png');
+    @apply h-full bg-no-repeat bg-cover bg-fixed bg-center absolute w-full;
+    @apply flex justify-center items-center;
+}
+
+.rowContainer {
+    @apply flex flex-row w-[1350px] space-x-12;
+}
+
+.rowContainer p {
+    line-height: 2.5rem;
+    @apply text-white;
+    @apply mt-0 mb-[0.9rem];
+}
+
+.aboutImages, img {
+    @apply flex flex-row;
+}
+
+

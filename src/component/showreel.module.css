@@ -1,5 +1,27 @@
 .container {
-    @apply w-[1120px];
+    @apply h-[1275px] w-full bg-secondary flex flex-col items-center;
+}
+
+.gridContainer {
+    @apply w-[650px] h-auto rounded-xl flex flex-col items-center;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.gridContainer span {
+    @apply text-2xl font-medium;
+}
+
+.gridContainer img {
+    @apply w-8 h-auto flex;
+}
+
+.statistics {
+    @apply text-white text-5xl;
+}
+
+.gridContainer span {
+    @apply text-white;
 }
 
 .weDo a {
@@ -20,4 +42,16 @@
 
 .line {
     @apply w-1/4 border-b border-gray-500 opacity-25;
+}
+
+.about {
+    @apply text-white text-6xl w-[1316px] font-black;
+}
+
+.videoContainer {
+    @apply w-full relative h-[650px] pt-6;
+}
+
+.video {
+    @apply h-[650px] w-full object-cover pt-6;
 }

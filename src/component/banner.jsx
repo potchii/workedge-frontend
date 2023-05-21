@@ -1,6 +1,6 @@
 import style from "./banner.module.css";
 import bannerVideo from "../assets/workedge video.mp4";
-import Navbar from "./navbar/navigationBar";
+import Navbar from "./navigationBar";
 import play from "../assets/play.svg";
 
 import { useState, useEffect } from "react";

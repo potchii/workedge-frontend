@@ -1,0 +1,74 @@
+.nav {
+    @apply flex items-center justify-between h-28 relative z-50;
+    @apply px-4 sm:px-24 lg:px-[18%]
+}
+
+.navBrand {
+
+}
+
+.navMenu {
+    @apply hidden items-center space-x-8;
+}
+
+
+
+.mobileNavContainer {
+    @apply fixed top-0 -left-full w-screen h-screen;
+    @apply transition-all ease-in duration-150
+
+}
+
+.navBackground {
+    @apply fixed opacity-0 pointer-events-none top-0 left-0 w-screen h-screen bg-gray-800 bg-opacity-80 ;
+    @apply transition-all ease-in duration-150
+}
+
+.mobileNavContainer.active {
+    @apply left-0;
+}
+
+.mobileNavContainer.active .navBackground{
+    @apply opacity-100;
+}
+
+
+.mobileNav {
+    @apply relative pt-4 flex z-50 items-start px-8 flex-col w-[85%] h-screen bg-white;
+}
+
+@screen md {
+    .mobileNavContainer {
+        @apply hidden;
+    }
+}
+
+
+
+.navMenu > li {
+    @apply text-lg font-medium;
+}
+
+.navMenu > li:hover {
+    @apply text-blue-500 ease-in transition-all;
+}
+
+.hamburger {
+}
+
+.brandImg{
+    @apply w-[150px] sm:w-[180px];
+}
+
+@screen md {
+    .hamburger {
+        @apply hidden;
+    }
+}
+
+@screen md {
+    .navMenu {
+        @apply flex;
+    }
+
+}

@@ -12,7 +12,7 @@ function Footer() {
       <footer>
         <div className={style.container}>
           <div className="flex flex-row pt-8 justify-between w-full">
-            <h1 className="flex flex-row text-baseline">
+            <h1 className="flex flex-row">
               <img src={location} className="h-6 w-auto pr-1"></img>Nova Tierra
               Village, Davao del Sur, Davao City, Philippines, 8000
             </h1>

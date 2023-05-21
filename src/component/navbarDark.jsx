@@ -1,6 +1,6 @@
-import style from "../navbar/navigationBar.module.css";
-import brandLogo from "/src/assets/workedge-logo.png";
+import style from "./navbarDark.module.css";
 import closeSvg from "/src/assets/close.svg";
+import brandLogo from "../assets/workedge-logo black.png";
 
 import Hamburger from "hamburger-react";
 import { useState } from "react";
@@ -12,13 +12,13 @@ function navigationBar() {
     <div>
       <nav className={style.nav}>
         <div className={style.navBrand}>
-          <a href="">
+          <a href="/">
             <img src={brandLogo} className={`${style.brandImg}`}></img>
           </a>
         </div>
         <ul className={style.navMenu}>
           <li className={style.navItems}>
-            <a href="" className={style.navLink}>
+            <a href="/" className={style.navLink}>
               Home
             </a>
           </li>

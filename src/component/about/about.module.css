@@ -18,8 +18,12 @@
     @apply mt-0 mb-[0.9rem];
 }
 
-.aboutImages, img {
-    @apply flex flex-row;
+.aboutImages {
+    @apply flex flex-row brightness-75;
+}
+
+.aboutImages img {
+    @apply grayscale brightness-75;
 }
 
 

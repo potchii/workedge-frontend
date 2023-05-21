@@ -41,13 +41,22 @@ function about() {
             <div className={`${style.aboutContainers} w-1/2 h-full`}>
               <div className={`${style.aboutImages}`}>
                 <div className="w-1/2 flex flex-col gap-24">
-                  <img src={images[0]}></img>
+                  <img
+                    src={images[0]}
+                    className="hover:scale-105 ease-in transition-all"
+                  ></img>
 
-                  <img src={images[2]}></img>
+                  <img
+                    src={images[2]}
+                    className="hover:scale-105 ease-in transition-all"
+                  ></img>
                 </div>
 
                 <div className="w-1/2 flex items-center justify-center">
-                  <img src={images[1]} className="ml-24"></img>
+                  <img
+                    src={images[1]}
+                    className="hover:scale-105 ease-in transition-all ml-24"
+                  ></img>
                 </div>
               </div>
             </div>

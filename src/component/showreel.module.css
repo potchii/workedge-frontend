@@ -1,3 +1,7 @@
+#container {
+    background-image: url('../component/services/background.jpg');
+}
+
 .container {
     @apply h-[1275px] w-full bg-secondary flex flex-col items-center;
 }

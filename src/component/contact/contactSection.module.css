@@ -1,3 +1,28 @@
+.wrapper {
+    @apply flex justify-center h-[760px] w-full bg-contact;
+}
+
 .container {
-    @apply h-[980px] bg-contact;
+    @apply h-full w-[1120px] flex items-center justify-center flex-col;
+}
+
+form {
+    @apply w-full flex flex-col;
+}
+
+form label {
+    @apply text-white text-lg font-medium py-1;
+}
+
+textarea {
+    @apply h-24;
+}
+
+input, textarea {
+    border-bottom: 1px solid gray;
+    @apply w-full p-2 rounded bg-[#22222266] mt-1 text-white;
+}
+
+.formButton {
+    @apply bg-primary text-white mt-4 rounded py-2 w-full text-lg;
 }

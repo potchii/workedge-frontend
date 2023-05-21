@@ -1,8 +1,9 @@
 import style from "./services.module.css";
+import background from "./background.jpg";
 
 function Services() {
   return (
-    <div>
+    <div className={style.wrapper}>
       <div className="flex items-center justify-center h-[80vh]">
         <div className={style.container}>
           <div className="flex flex-row space-x-28">

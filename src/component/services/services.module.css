@@ -1,3 +1,8 @@
+.wrapper {
+    @apply bg-cover;
+    background-image: url('./background.jpg');
+}
+
 .container {
     @apply w-[1120px];
 }

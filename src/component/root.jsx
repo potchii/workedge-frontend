@@ -3,6 +3,7 @@ import Services from "./services/services";
 import Showreel from "./showreel";
 import ContactSection from "./contact/contactSection";
 import About from "./about/about";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 function Root() {
   return (
@@ -12,6 +13,7 @@ function Root() {
       <About />
       <Showreel />
       <ContactSection />
+      <ScrollToTopButton />
     </div>
   );
 }

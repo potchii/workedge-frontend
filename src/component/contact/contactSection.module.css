@@ -3,7 +3,7 @@
 }
 
 .container {
-    @apply h-full w-[1120px] flex items-center justify-center flex-col;
+    @apply h-full w-[1316px] flex items-center justify-center flex-col;
 }
 
 form {

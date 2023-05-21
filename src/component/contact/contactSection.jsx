@@ -39,14 +39,17 @@ function contactSection() {
             </div>
 
             <div className="flex w-1/2 h-1/2 flex-col">
-              <a href="mailto:contact@workedge.tech">
-                <h1 className="text-2xl font-bold text-white uppercase">
-                  {email}
-                </h1>
-              </a>
+              <div class="flex flex-row">
+                <a href="mailto:contact@workedge.tech">
+                  <h1 className="text-xl font-bold text-white uppercase hover:opacity-75">
+                    {email}
+                  </h1>
+                </a>
+              </div>
+
               <p className="text-gray-400 text-xl pt-2">
-                Nova Tierra Village, Davao del Sur, Davao City,<br></br>{" "}
-                Philippines, 8000
+                Nova Tierra Village, Davao del Sur, Davao City, Philippines,
+                8000
               </p>
             </div>
           </div>

@@ -1,0 +1,20 @@
+footer {
+    color: #414141;
+    @apply h-[15vh] w-full text-sm;
+}
+
+.container {
+    @apply mx-auto w-[1316px] h-full flex flex-row;
+}
+
+.socials {
+    @apply flex flex-row w-full justify-end;
+}
+
+.socials img {
+    @apply h-8 hover:scale-105 ease-in transition-all;
+}
+
+.copyright {
+   @apply w-[1316px] mx-auto;
+}

@@ -3,7 +3,7 @@
 }
 
 .container {
-    @apply h-full w-[1316px] flex items-center justify-center flex-col;
+    @apply h-full w-[1316px] flex items-center flex-col pt-12;
 }
 
 form {
@@ -18,7 +18,7 @@ textarea {
     @apply h-24;
 }
 
-input, textarea {
+.anotherInput input, textarea {
     border-bottom: 1px solid gray;
     @apply w-full p-2 rounded bg-[#22222266] mt-1 text-white;
 }

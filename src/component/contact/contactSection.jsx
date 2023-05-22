@@ -12,7 +12,7 @@ function contactSection() {
           </h1>
 
           <div className="w-full flex flex-row space-x-24">
-            <div className="flex w-1/2 flex-col">
+            <div className={`${style.anotherInput} flex w-1/2 flex-col`}>
               <form
                 action="https://formsubmit.co/benitezernest14@gmail.com"
                 method="POST"
@@ -30,7 +30,11 @@ function contactSection() {
                 <label for="message">
                   Input your message <span className="text-amber-800">*</span>
                 </label>
-                <textarea name="message" id="message"></textarea>
+                <textarea
+                  name="message"
+                  className="bg-[#22222266]"
+                  id="message"
+                ></textarea>
 
                 <button type="submit" className={style.formButton}>
                   Send

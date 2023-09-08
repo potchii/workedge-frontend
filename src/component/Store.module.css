@@ -1,8 +1,0 @@
-.container {
-    @apply h-full bg-cover;
-    background-image: url('../assets/pricing-banner.avif');
-}
-
-.inputForms input, textarea {
-    @apply bg-white;
-}

@@ -1,7 +1,6 @@
 import style from "./navbarDark.module.css";
 import closeSvg from "/src/assets/close.svg";
 import brandLogo from "../assets/workedge-logo black.png";
-import shoppingCart from "../assets/shoppingCartDark.svg";
 
 import Hamburger from "hamburger-react";
 import { useState } from "react";
@@ -36,14 +35,6 @@ function navigationBar() {
           <li className={style.navItems}>
             <a href="" className={style.navLink}>
               Contact
-            </a>
-          </li>
-          <li className={style.navItems}>
-            <a
-              href="/checkout"
-              className=" ${style.navLink} flex flex-row gap-2"
-            >
-              <img src={shoppingCart} className="w-6 h-auto"></img>(0)
             </a>
           </li>
         </ul>
